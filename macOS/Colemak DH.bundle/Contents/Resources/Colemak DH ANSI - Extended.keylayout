@@ -83,7 +83,7 @@
             <key code="16" action="45"/>
             <key code="39" action="90"/>
             <key code="45" action="47"/>
-            <key code="35" output=";"/>
+            <key code="35" output="&#x0027;"/>
             <key code="42" output="\"/>
             <key code="43" output=","/>
             <key code="44" output="/"/>
@@ -192,7 +192,7 @@
             <key code="16" action="44"/>
             <key code="39" action="89"/>
             <key code="45" action="46"/>
-            <key code="35" output=":"/>
+            <key code="35" output="&#x0022;"/>
             <key code="42" output="|"/>
             <key code="43" output="&#x003C;"/>
             <key code="44" output="?"/>
@@ -301,7 +301,7 @@
             <key code="16" action="44"/>
             <key code="39" action="90"/>
             <key code="45" action="46"/>
-            <key code="35" output=";"/>
+            <key code="35" output="&#x0027;"/>
             <key code="42" output="\"/>
             <key code="43" output=","/>
             <key code="44" output="/"/>
@@ -844,9 +844,9 @@
             <key code="36" output="&#x000D;"/>
             <key code="32" output="&#x000C;"/>
             <key code="16" output="&#x000A;"/>
-            <key code="39" output="&#x0027;"/>
+            <key code="39" output=";"/>
             <key code="45" output="&#x000B;"/>
-            <key code="35" output=";"/>
+            <key code="35" output="&#x0027;"/>
             <key code="42" output="&#x001C;"/>
             <key code="43" output=","/>
             <key code="44" output="/"/>
@@ -919,7 +919,7 @@
             <key code="24" action="84"/>
             <key code="30" output="["/>
             <key code="33" action="78"/>
-            <key code="39" output=":"/>
+            <key code="39" output="&#x0022;"/>
             <key code="42" output="]"/>
             <key code="93" output="¥"/>
             <key code="94" output="_"/>
@@ -951,7 +951,7 @@
             <key code="24" action="84"/>
             <key code="30" output="["/>
             <key code="33" action="78"/>
-            <key code="39" output=":"/>
+            <key code="39" output="&#x0022;"/>
             <key code="42" output="]"/>
             <key code="93" output="¥"/>
             <key code="94" output="_"/>
@@ -1790,14 +1790,14 @@
             <when state="16" output="ȣ"/>
         </action>
         <action id="89">
-            <when state="none" output="&#x0022;"/>
+            <when state="none" output=":"/>
             <when state="16" output="ʺ"/>
         </action>
         <action id="9">
             <when state="none" next="2"/>
         </action>
         <action id="90">
-            <when state="none" output="&#x0027;"/>
+            <when state="none" output=";"/>
             <when state="16" output="ʹ"/>
         </action>
         <action id="91">
